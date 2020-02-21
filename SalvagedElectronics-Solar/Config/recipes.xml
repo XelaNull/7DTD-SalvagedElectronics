@@ -1,0 +1,30 @@
+<configs>
+  <!-- 
+    Taken from: https://7daystodie.com/forums/showthread.php?67181-Recipe-for-Solar-Cells
+  -->
+	<!-- The line below was added for compatibility in case another modlet creates this recipe -->
+	<remove xpath="/recipes/recipe[@name='solarCell']" />
+	<!-- Add in a new recipe for solarCell -->
+	<append xpath="/recipes">
+    <recipe name="solarCell" count="1" craft_area="workbench" tags="learnable,perkYeahScience,chemStationCrafting">
+	    <ingredient name="resourceForgedSteel" count="25"/>
+	    <ingredient name="resourceSilverNugget" count="2"/>
+	    <ingredient name="unit_glass" count="6"/>
+	    <ingredient name="resourceInsulator" count="4"/>
+	    <ingredient name="resourceElectronicParts" count="10"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="resourceSilverNugget,resourceForgedSteel,unit_glass,resourceInsulator,resourceElectronicParts"/>
+			</effect_group>
+    </recipe> 
+		<!-- The line below was added for compatibility in case another modlet creates this recipe -->
+		<remove xpath="/recipes/recipe[@name='solarbank']" />
+		<!-- Add in a new recipe for solarbank -->
+    <recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
+	    <ingredient name="resourceForgedSteel" count="50"/>
+	    <ingredient name="resourceElectricParts" count="10"/>
+	    <ingredient name="resourceElectronicParts" count="10"/>
+	    <ingredient name="resourceMechanicalParts" count="10"/>
+	    <ingredient name="glassBulletproofBlockVariantHelper" count="10"/>
+    </recipe>
+  </append>
+</configs>

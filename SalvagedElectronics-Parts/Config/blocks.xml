@@ -1,0 +1,50 @@
+<configs>
+  <append xpath="/blocks/block[@name='electricwirerelay']">
+    <drop event="Harvest" name="electricwirerelay" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='switch']">
+    <drop event="Harvest" name="switch" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='pressureplate']">
+    <drop event="Harvest" name="pressureplate" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='pressureplateLong']">
+    <drop event="Harvest" name="pressureplateLong" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='tripwirepost']">
+    <drop event="Harvest" name="tripwirepost" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='motionsensor']">
+    <drop event="Harvest" name="motionsensor" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='electrictimerrelay']">
+    <drop event="Harvest" name="electrictimerrelay" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='speaker']">
+    <drop event="Harvest" name="speaker" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='loudspeaker']">
+    <drop event="Harvest" name="loudspeaker" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='electricfencepost']">
+    <drop event="Harvest" name="electricfencepost" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='dartTrap']">
+    <drop event="Harvest" name="dartTrap" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='flamethrowerTrap']">
+    <drop event="Harvest" name="flamethrowerTrap" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='bladeTrap']">
+    <drop event="Harvest" name="bladeTrap" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='autoTurret']">
+    <drop event="Harvest" name="autoTurret" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='shotgunTurret']">
+    <drop event="Harvest" name="shotgunTurret" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>  
+  <append xpath="/blocks/block[@name='fusebox']">
+    <drop event="Harvest" name="fusebox" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>  
+</configs>

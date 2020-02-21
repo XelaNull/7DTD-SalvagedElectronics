@@ -1,0 +1,5 @@
+<configs>
+  <append xpath="/blocks/block[@name='generatorbank']">
+    <drop event="Harvest" name="generatorbank" count="1" prob=".15" tag="salvageHarvest"/>
+  </append>
+</configs>

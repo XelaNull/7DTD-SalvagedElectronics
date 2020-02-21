@@ -1,0 +1,24 @@
+<configs>
+<!--
+  salvageHarvest is what comes out of it while I wrench it apart      
+--> 
+
+  <remove xpath="/blocks/block[@name='solarbank']/drop[contains(@tag,'salvageHarvest')]" />
+  <append xpath="/blocks/block[@name='solarbank']">
+    <property name="MaxDamage" value="250"/>
+    <drop event="Harvest" name="solarbank" count="1" prob=".15" tag="salvageHarvest"/>
+    <drop event="Harvest" name="solarCell" count="1,4" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="unit_glass" count="1,2" prob=".4" tag="salvageHarvest"/>
+    <property name="DowngradeBlock" value="cntCollapsedSolarbank"/>
+  </append>
+
+  <remove xpath="/blocks/block[@name='cntCollapsedSolarbank']/drop[contains(@tag,'salvageHarvest')]" />
+  <append xpath="/blocks/block[@name='cntCollapsedSolarbank']">
+    <drop event="Harvest" name="resourceForgedIron" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceSilverNugget" count="1,4" prob=".1" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectronicParts" count="1,2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceBrokenGlass" count="1,2" tag="salvageHarvest"/>
+  </append>
+
+</configs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SalvagedElectronics-Generator" />
+		<Description value="Adds ability to wrench generators from POIs and potentially obtain user-placable generators." />
+		<Author value="ShoudenKalferas"/>
+		<Version value="A18.3_1.0" />
+		<Website value="https://github.com/XelaNull/7DTD-SalvagedElectronics.git" />
+	</ModInfo>
+</xml>
