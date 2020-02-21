@@ -1,0 +1,11 @@
+<configs>
+  <!-- Change the batterybank recipe to require forged steel bars -->
+  
+  <remove xpath="/recipes/recipe[@name='batterybank']/ingredient[@name='resourceForgedIron']" />
+  <append xpath="/recipes/recipe[@name='batterybank']">
+    <ingredient name="resourceForgedSteel" count="5,10"/>
+  </append>
+
+  
+  
+</configs>

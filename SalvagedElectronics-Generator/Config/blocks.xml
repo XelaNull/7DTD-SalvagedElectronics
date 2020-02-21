@@ -1,5 +1,22 @@
 <configs>
+  <!--
+  Remove the items that currently wrench off a generator, in favor of new items that make sense.
+  -->
+  <remove xpath="/blocks/block[@name='generatorbank']/drop[@name='resourceMechanicalParts']" />
+  <remove xpath="/blocks/block[@name='generatorbank']/drop[@name='resourceElectricParts']" />
+  <remove xpath="/blocks/block[@name='generatorbank']/drop[@name='resourceForgedIron']" />
+  <!--
+  Add in the new items and probabilities for wrenching off a generator.
+  -->
   <append xpath="/blocks/block[@name='generatorbank']">
-    <drop event="Harvest" name="generatorbank" count="1" prob=".15" tag="salvageHarvest"/>
+    <drop event="Harvest" name="generatorbank" count="1" prob=".3" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapIron" count="1,10" prob=".6" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapBrass" count="1,4" prob=".6" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceElectricParts" count="1,4" prob=".1" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceMechanicalParts" count="1,4" prob=".1" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceScrapPolymers" count="1,4" prob=".6" tag="salvageHarvest"/>
   </append>
+
+
+
 </configs>

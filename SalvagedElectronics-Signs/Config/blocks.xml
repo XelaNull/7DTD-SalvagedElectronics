@@ -1,8 +1,8 @@
 <configs>
   <append xpath="/blocks/block[@name='signShopOpen']">
-    <drop event="Harvest" name="signShopOpen" count="1" prob=".15" tag="salvageHarvest"/>
+    <drop event="Harvest" name="signShopOpen" count="1" prob=".2" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='signExitLight']">
-    <drop event="Harvest" name="signExitLight" count="1" prob=".15" tag="salvageHarvest"/>
+    <drop event="Harvest" name="signExitLight" count="1" prob=".2" tag="salvageHarvest"/>
   </append>
 </configs>
