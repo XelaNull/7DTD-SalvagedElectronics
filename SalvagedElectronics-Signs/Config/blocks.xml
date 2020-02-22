@@ -1,8 +1,22 @@
 <configs>
   <append xpath="/blocks/block[@name='signShopOpen']">
-    <drop event="Harvest" name="signShopOpen" count="1" prob=".6" tag="salvageHarvest"/>
+    <drop event="Harvest" name="signShopOpen_player" count="1" prob=".6" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks">
+    <block name="signShopOpen_player">
+      <property name="Extends" value="signShopOpen"/>
+      <property name="RuntimeSwitch" value="true"/>
+      <property name="Class" value="PoweredLight"/>
+    </block>
   </append>
   <append xpath="/blocks/block[@name='signExitLight']">
-    <drop event="Harvest" name="signExitLight" count="1" prob=".6" tag="salvageHarvest"/>
+    <drop event="Harvest" name="signExitLight_player" count="1" prob=".6" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks">
+    <block name="signExitLight_player">
+      <property name="Extends" value="signExitLight"/>
+      <property name="RuntimeSwitch" value="true"/>
+      <property name="Class" value="PoweredLight"/>
+    </block>
   </append>
 </configs>
