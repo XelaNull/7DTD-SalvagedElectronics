@@ -5,7 +5,7 @@
 
   <remove xpath="/blocks/block[@name='solarbank']/drop[contains(@tag,'salvageHarvest')]" />
   <append xpath="/blocks/block[@name='solarbank']">
-    <property name="MaxDamage" value=.20"/>
+    <property name="MaxDamage" value="500"/>
     <drop event="Harvest" name="solarbank" count="1" prob=".2" tag="salvageHarvest"/>
     <drop event="Harvest" name="solarCell" count="1,4" prob=".2" tag="salvageHarvest"/>
     <drop event="Harvest" name="unit_glass" count="1,2" prob=".4" tag="salvageHarvest"/>
