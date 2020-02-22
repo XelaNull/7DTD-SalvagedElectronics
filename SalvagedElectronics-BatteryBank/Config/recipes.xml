@@ -1,11 +1,14 @@
 <configs>
-  <!-- Change the batterybank recipe to require forged steel bars -->
-  
+  <!-- Change the batterybank recipe to require forged steel bars 
+  <recipe name="batterybank" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+  	<ingredient name="resourceForgedIron" count="10"/>
+  	<ingredient name="resourceElectricParts" count="11"/>
+  	<ingredient name="resourceScrapPolymers" count="6"/>
+  </recipe>
+
+-->
   <remove xpath="/recipes/recipe[@name='batterybank']/ingredient[@name='resourceForgedIron']" />
   <append xpath="/recipes/recipe[@name='batterybank']">
-    <ingredient name="resourceForgedSteel" count="5,10"/>
+    <ingredient name="resourceForgedSteel" count="5"/>
   </append>
-
-  
-  
 </configs>
