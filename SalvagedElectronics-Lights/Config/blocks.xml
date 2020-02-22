@@ -1,110 +1,110 @@
 <configs>
   <append xpath="/blocks/block[@name='porchLight01']">
-    <drop event="Harvest" name="porchLight01" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="porchLight01" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='porchLight04']">
-    <drop event="Harvest" name="porchLight04" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="porchLight04" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='porchLight04Brass']">
-    <drop event="Harvest" name="porchLight04Brass" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="porchLight04Brass" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight01']">
-    <drop event="Harvest" name="ceilingLight01" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight01" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight02']">
-    <drop event="Harvest" name="ceilingLight02" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight02" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight02Brass']">
-    <drop event="Harvest" name="ceilingLight02Brass" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight02Brass" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight04']">
-    <drop event="Harvest" name="ceilingLight04" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight04" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight05']">
-    <drop event="Harvest" name="ceilingLight05" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight05" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight05Brass']">
-    <drop event="Harvest" name="ceilingLight05Brass" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight05Brass" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='wallLight01']">
-    <drop event="Harvest" name="wallLight01" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="wallLight01" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight07']">
-    <drop event="Harvest" name="ceilingLight07" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight07" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='streetLight01']">
-    <drop event="Harvest" name="streetLight01" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="streetLight01" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='streetLightClassic']">
-    <drop event="Harvest" name="streetLightClassic" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="streetLightClassic" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='industrialLight01']">
-    <drop event="Harvest" name="industrialLight01" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="industrialLight01" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='sconce1Light']">
-    <drop event="Harvest" name="sconce1Light" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="sconce1Light" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='sconce1LightShadow']">
-    <drop event="Harvest" name="sconce1LightShadow" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="sconce1LightShadow" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='lanternDecorLight']">
-    <drop event="Harvest" name="lanternDecorLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="lanternDecorLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='flashlightDecor']">
-    <drop event="Harvest" name="flashlightDecor" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="flashlightDecor" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='industrialLight02']">
-    <drop event="Harvest" name="industrialLight02" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="industrialLight02" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='industrialLight02Red']">
-    <drop event="Harvest" name="industrialLight02Red" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="industrialLight02Red" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='ceilingFanLight']">
-    <drop event="Harvest" name="ceilingFanLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingFanLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='chandelierLight']">
-    <drop event="Harvest" name="chandelierLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="chandelierLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='candelabraLight']">
-    <drop event="Harvest" name="candelabraLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="candelabraLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='endTableLamp']">
-    <drop event="Harvest" name="endTableLamp" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="endTableLamp" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='roadBarricadeLight']">
-    <drop event="Harvest" name="roadBarricadeLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="roadBarricadeLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks/block[@name='deskLampLight']">
-    <drop event="Harvest" name="deskLampLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="deskLampLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='tableLampLight']">
-    <drop event="Harvest" name="tableLampLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="tableLampLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='tableLampTippedOverLight']">
-    <drop event="Harvest" name="tableLampTippedOverLight" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="tableLampTippedOverLight" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='workLightPOI']">
-    <drop event="Harvest" name="workLightPOI" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="workLightPOI" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='spotlightNailedDownPOI']">
-    <drop event="Harvest" name="spotlightNailedDownPOI" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="spotlightNailedDownPOI" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='spotlightPlayer']">
-    <drop event="Harvest" name="spotlightPlayer" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="spotlightPlayer" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='ceilingLight01_player']">
-    <drop event="Harvest" name="ceilingLight01_player" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='lanternLight_player']">
-    <drop event="Harvest" name="lanternLight_player" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="lanternLight_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='industrialLight01_player']">
-    <drop event="Harvest" name="industrialLight01_player" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="industrialLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='industrialLight02_player']">
-    <drop event="Harvest" name="industrialLight02_player" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="industrialLight02_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='ceilingLight07_player']">
-    <drop event="Harvest" name="ceilingLight07_player" count="1" prob=".2" tag="salvageHarvest"/>
+    <drop event="Harvest" name="ceilingLight07_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
 </configs>

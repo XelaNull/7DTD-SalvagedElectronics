@@ -3,10 +3,16 @@
   Remove forced Iron bars as a harvestable resource. Instead, favoring steel for the enclosure
   -->
   <remove xpath="/blocks/block[@name='batterybank']/drop[@name='resourceForgedIron']" />
-  
   <append xpath="/blocks/block[@name='batterybank']">
-    <drop event="Harvest" name="batterybank" count="1" prob=".3" tag="salvageHarvest"/>
-    <drop event="Harvest" name="batterybank" count="1,4" tag="resourceForgedSteel"/>
+    <drop event="Harvest" name="batterybank" count="1" prob=".6" tag="salvageHarvest"/>
+    <drop event="Harvest" name="carBattery" count="1,2" prob=".3" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceForgedSteel" count="1,4" tag="salvageHarvest"/>
   </append>
-  
+
+  <remove xpath="/blocks/block[@name='cntCollapsedBatterybank']/drop[@name='resourceForgedIron']" />  
+  <append xpath="/blocks/block[@name='cntCollapsedBatterybank']">
+    <drop event="Harvest" name="batterybank" count="1" prob=".4" tag="salvageHarvest"/>
+    <drop event="Harvest" name="carBattery" count="1,2" prob=".3" tag="salvageHarvest"/>
+    <drop event="Harvest" name="resourceForgedSteel" count="1" tag="salvageHarvest"/>
+  </append>
 </configs>
