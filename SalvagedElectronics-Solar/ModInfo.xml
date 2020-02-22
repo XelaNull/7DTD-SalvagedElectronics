@@ -4,7 +4,7 @@
 		<Name value="SalvagedElectronics-Solar" />
 		<Description value="Adds ability to wrench a solar bank off a roof and potentially obtain a working bank and solar cells." />
 		<Author value="ShoudenKalferas"/>
-		<Version value="A18.3_1.0a" />
+		<Version value="A18.3_1.0b" />
 		<Website value="https://github.com/XelaNull/7DTD-SalvagedElectronics.git" />
 	</ModInfo>
 </xml>
