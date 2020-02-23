@@ -7,6 +7,8 @@
       <property name="Extends" value="porchLight01"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='porchLight04']">
@@ -17,6 +19,8 @@
       <property name="Extends" value="porchLight04"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>      
     </block>
   </append>
   <append xpath="/blocks/block[@name='porchLight04Brass']">
@@ -27,6 +31,8 @@
       <property name="Extends" value="porchLight04Brass"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>      
     </block>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight01']">
@@ -40,6 +46,8 @@
       <property name="Extends" value="ceilingLight02"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight02Brass']">
@@ -50,6 +58,8 @@
       <property name="Extends" value="ceilingLight02Brass"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight04']">
@@ -60,6 +70,8 @@
       <property name="Extends" value="ceilingLight04"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight05']">
@@ -70,6 +82,8 @@
       <property name="Extends" value="ceilingLight05"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight05Brass']">
@@ -80,6 +94,8 @@
       <property name="Extends" value="ceilingLight05Brass"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='wallLight01']">
@@ -90,6 +106,8 @@
       <property name="Extends" value="wallLight01"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='ceilingLight07']">
@@ -103,6 +121,8 @@
       <property name="Extends" value="streetLight01"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='streetLightClassic']">
@@ -113,6 +133,8 @@
       <property name="Extends" value="streetLightClassic"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='industrialLight01']">
@@ -126,6 +148,8 @@
       <property name="Extends" value="sconce1Light"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='sconce1LightShadow']">
@@ -136,6 +160,8 @@
       <property name="Extends" value="sconce1LightShadow"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='lanternDecorLight']">
@@ -146,6 +172,8 @@
       <property name="Extends" value="lanternDecorLight"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='flashlightDecor']">
@@ -156,6 +184,8 @@
       <property name="Extends" value="flashlightDecor"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='industrialLight02']">
@@ -169,6 +199,8 @@
       <property name="Extends" value="industrialLight02Red"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='ceilingFanLight']">
@@ -179,6 +211,8 @@
       <property name="Extends" value="ceilingFanLight"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='chandelierLight']">
@@ -189,6 +223,8 @@
       <property name="Extends" value="chandelierLight"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='candelabraLight']">
@@ -199,6 +235,8 @@
       <property name="Extends" value="candelabraLight"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='endTableLamp']">
@@ -209,6 +247,8 @@
       <property name="Extends" value="endTableLamp"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='roadBarricadeLight']">
@@ -219,6 +259,8 @@
       <property name="Extends" value="roadBarricadeLight"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='deskLampLight']">
@@ -229,6 +271,8 @@
       <property name="Extends" value="deskLampLight"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='tableLampLight']">
@@ -239,6 +283,8 @@
       <property name="Extends" value="tableLampLight"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='tableLampTippedOverLight']">
@@ -252,6 +298,8 @@
       <property name="Extends" value="workLightPOI"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   <append xpath="/blocks/block[@name='spotlightNailedDownPOI']">
@@ -262,6 +310,8 @@
       <property name="Extends" value="spotlightNailedDownPOI"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append> 
   <append xpath="/blocks/block[@name='spotlightPlayer']">
@@ -272,6 +322,8 @@
       <property name="Extends" value="spotlightPlayer"/>
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
     </block>
   </append>
   
