@@ -16,10 +16,9 @@ UNTESTED:
 
 I've split this into multiple Modlets to make it easy for you to enable/disable any specific category of items:
 
-- Salvaged Electronics
-- Battery Bank (tested) Salvaged Electronics
-- Generator (tested) Salvaged Electronics
-- Lights (untested, use at own risk) Salvaged Electronics
-- Parts (untested, use at own risk) Salvaged Electronics
-- Signs (untested, use at own risk) Salvaged Electronics
-- Solar (tested)
+- Salvaged Electronics - Battery Bank (tested) Salvaged Electronics
+- Salvaged Electronics - Generator (tested) Salvaged Electronics
+- Salvaged Electronics - Lights (untested, use at own risk) Salvaged Electronics
+- Salvaged Electronics - Parts (untested, use at own risk) Salvaged Electronics
+- Salvaged Electronics - Signs (untested, use at own risk) Salvaged Electronics
+- Salvaged Electronics - Solar (tested)
