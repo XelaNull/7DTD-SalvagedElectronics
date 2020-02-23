@@ -99,7 +99,7 @@
     </block>
   </append>
   <append xpath="/blocks/block[@name='wallLight01']">
-    <drop event="Harvest" name="wallLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
+    <drop event="Harvest" name="wallLight01_player" count="1" tag="salvageHarvest"/>
   </append>
   <append xpath="/blocks">
     <block name="wallLight01_player">
@@ -107,6 +107,7 @@
       <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
+      <property name="Light" value="5" />
       <property name="CreativeMode" value="Player"/>
     </block>
   </append>
