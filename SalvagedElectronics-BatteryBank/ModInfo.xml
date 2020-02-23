@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Salvaged Electronics - Battery" />
+		<Name value="Salvaged Electronics - Battery Bank" />
 		<Description value="Adds ability to wrench batteries from POIs and potentially obtain user-placable batteries." />
 		<Author value="ShoudenKalferas"/>
-		<Version value="A18.3_1.0c" />
+		<Version value="A18.3_1.0" />
 		<Website value="https://github.com/XelaNull/7DTD-SalvagedElectronics.git" />
 	</ModInfo>
 </xml>
