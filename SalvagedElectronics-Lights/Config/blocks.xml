@@ -4,8 +4,27 @@
   </append>
   <append xpath="/blocks">
     <block name="porchLight01_player">
-      <property name="Extends" value="porchLight01"/>
-      <property name="RuntimeSwitch" value="false"/>
+      <!--<property name="Class" value="Light"/>
+      <property name="CreativeMode" value="Dev"/>-->
+      <property name="DescriptionKey" value="lightPOIGroupDesc"/>
+      <property name="Material" value="Mmetal_thin"/>
+      <property name="StabilitySupport" value="false"/> <!-- build restriction -->
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Light" value="0.5"/>
+      <property name="Collide" value="melee,bullet,arrow,rocket"/>
+      <property name="Model" value="Entities/Lighting/porchLight01Prefab"/> <property name="HandleFace" value="West"/>
+      <property name="ImposterDontBlock" value="true"/>
+      <property class="RepairItems"> <property name="resourceForgedIron" value="1"/> <property name="resourceElectricParts" value="3"/> </property>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/> <!-- HV: mounted lamp -->
+      <drop event="Destroy" name="resourceScrapIron" count="5" prob="1"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+      <property name="TakeDelay" value="-1"/>
+      <property name="Group" value="Science"/>
+      <property name="EconomicValue" value="76"/>
+      <property name="FilterTags" value="fdecor,felectrical"/>
+      <property name="SortOrder1" value="70a0"/>
+      <property name="RuntimeSwitch" value="true"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
