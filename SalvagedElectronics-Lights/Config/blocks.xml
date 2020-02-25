@@ -5,7 +5,7 @@
   </append>
 -->
   <append xpath="/blocks">
-    <block name="porchLight01_player">
+    <block name="Shouden">
       <property name="DescriptionKey" value="lightPOIGroupDesc"/>
       <property name="Material" value="Mmetal_thin"/>
       <property name="StabilitySupport" value="false"/> 
@@ -24,8 +24,9 @@
       <property name="EconomicValue" value="76"/>
       <property name="FilterTags" value="fdecor,felectrical"/>
       <property name="SortOrder1" value="70a0"/>
-      <property name="RuntimeSwitch" value="false"/>
-      <property name="Class" value="Switch"/>
+      
+      <property name="RuntimeSwitch" value="true"/>
+      <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
     </block>

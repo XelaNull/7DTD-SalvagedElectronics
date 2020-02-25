@@ -1,7 +1,7 @@
 <configs>
   <append xpath="/recipes">
 
-    <recipe name="porchLight01_player" count="1" craft_time = "1" craft_exp_gain="1" >
+    <recipe name="Shouden" count="1" craft_time = "1" craft_exp_gain="1" >
       <ingredient name="resourcePaper" count="1"/>
     </recipe>	
   </append>
