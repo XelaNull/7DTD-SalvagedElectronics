@@ -5,7 +5,7 @@
   <append xpath="/blocks">
     <block name="porchLight01_player">
       <property name="Extends" value="porchLight01"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -17,7 +17,7 @@
   <append xpath="/blocks">
     <block name="porchLight04_player">
       <property name="Extends" value="porchLight04"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>      
@@ -29,7 +29,7 @@
   <append xpath="/blocks">
     <block name="porchLight04Brass_player">
       <property name="Extends" value="porchLight04Brass"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>      
@@ -44,7 +44,7 @@
   <append xpath="/blocks">
     <block name="ceilingLight02_player">
       <property name="Extends" value="ceilingLight02"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -56,7 +56,7 @@
   <append xpath="/blocks">
     <block name="ceilingLight02Brass_player">
       <property name="Extends" value="ceilingLight02Brass"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -68,7 +68,7 @@
   <append xpath="/blocks">
     <block name="ceilingLight04_player">
       <property name="Extends" value="ceilingLight04"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -80,7 +80,7 @@
   <append xpath="/blocks">
     <block name="ceilingLight05_player">
       <property name="Extends" value="ceilingLight05"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -92,7 +92,7 @@
   <append xpath="/blocks">
     <block name="ceilingLight05Brass_player">
       <property name="Extends" value="ceilingLight05Brass"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -104,9 +104,8 @@
   <append xpath="/blocks">
     <block name="wallLight01_player">
       <property name="Extends" value="wallLight01"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
-      <property name="CanPickup" value="true" />
       <property name="Light" value="5" />
       <property name="CreativeMode" value="Player"/>
     </block>
@@ -120,7 +119,7 @@
   <append xpath="/blocks">
     <block name="streetLight01_player">
       <property name="Extends" value="streetLight01"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -132,7 +131,7 @@
   <append xpath="/blocks">
     <block name="streetLightClassic_player">
       <property name="Extends" value="streetLightClassic"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -147,7 +146,7 @@
   <append xpath="/blocks">
     <block name="sconce1Light_player">
       <property name="Extends" value="sconce1Light"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -159,7 +158,7 @@
   <append xpath="/blocks">
     <block name="sconce1LightShadow_player">
       <property name="Extends" value="sconce1LightShadow"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -171,7 +170,7 @@
   <append xpath="/blocks">
     <block name="lanternDecorLight_player">
       <property name="Extends" value="lanternDecorLight"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -183,7 +182,7 @@
   <append xpath="/blocks">
     <block name="flashlightDecor_player">
       <property name="Extends" value="flashlightDecor"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -198,7 +197,7 @@
   <append xpath="/blocks">
     <block name="industrialLight02Red_player">
       <property name="Extends" value="industrialLight02Red"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -210,7 +209,7 @@
   <append xpath="/blocks">
     <block name="ceilingFanLight_player">
       <property name="Extends" value="ceilingFanLight"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -222,7 +221,7 @@
   <append xpath="/blocks">
     <block name="chandelierLight_player">
       <property name="Extends" value="chandelierLight"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -234,7 +233,7 @@
   <append xpath="/blocks">
     <block name="candelabraLight_player">
       <property name="Extends" value="candelabraLight"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -246,7 +245,7 @@
   <append xpath="/blocks">
     <block name="endTableLamp_player">
       <property name="Extends" value="endTableLamp"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -258,7 +257,7 @@
   <append xpath="/blocks">
     <block name="roadBarricadeLight_player">
       <property name="Extends" value="roadBarricadeLight"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -270,7 +269,7 @@
   <append xpath="/blocks">
     <block name="deskLampLight_player">
       <property name="Extends" value="deskLampLight"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -282,7 +281,7 @@
   <append xpath="/blocks">
     <block name="tableLampLight_player">
       <property name="Extends" value="tableLampLight"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -297,7 +296,7 @@
   <append xpath="/blocks">
     <block name="workLightPOI_player">
       <property name="Extends" value="workLightPOI"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -309,7 +308,7 @@
   <append xpath="/blocks">
     <block name="spotlightNailedDownPOI_player">
       <property name="Extends" value="spotlightNailedDownPOI"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
@@ -321,7 +320,7 @@
   <append xpath="/blocks">
     <block name="spotlightPlayer_player">
       <property name="Extends" value="spotlightPlayer"/>
-      <property name="RuntimeSwitch" value="true"/>
+      <property name="RuntimeSwitch" value="false"/>
       <property name="Class" value="PoweredLight"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
