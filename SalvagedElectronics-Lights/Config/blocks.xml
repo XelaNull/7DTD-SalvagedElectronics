@@ -24,8 +24,8 @@
       <property name="EconomicValue" value="76"/>
       <property name="FilterTags" value="fdecor,felectrical"/>
       <property name="SortOrder1" value="70a0"/>
-      <property name="RuntimeSwitch" value="true"/>
-      <property name="Class" value="PoweredLight"/>
+      <property name="RuntimeSwitch" value="false"/>
+      <property name="Class" value="Light"/>
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
     </block>
