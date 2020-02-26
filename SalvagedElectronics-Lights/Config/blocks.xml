@@ -5,67 +5,34 @@
 
     <block name="Shouden_Orig">
     	<property name="Class" value="PoweredLight"/>
-    	<property name="Extends" value="porchLight01"/>
+    	<property name="Extends" value="ceilingLight01_player"/>
     	<property name="CreativeMode" value="Player"/>
     	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-    	<!--<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
     	<property name="CustomIcon" value="ceilingLight01"/>
     	<property name="RuntimeSwitch" value="true"/>
     	<property name="Material" value="Mglass"/>
-    	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+    	<property name="StabilitySupport" value="false"/> 
     	<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
       <property name="HandleFace" value="Top"/>
     	<property name="TakeDelay" value="5"/>
     </block>
     
     <block name="Shouden_NewA">
-      <property name="Class" value="PoweredLight"/>
-      <property name="Extends" value="porchLight01"/>
-      <property name="CreativeMode" value="Player"/>
-      <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-    <!--  <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
-      <property name="CustomIcon" value="ceilingLight01"/>
-      <property name="RuntimeSwitch" value="true"/>
-      <property name="Material" value="Mglass"/>
-      <property name="StabilitySupport" value="false"/> 
+      <property name="Extends" value="ceilingLight01_player"/>
       <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
-      <property name="HandleFace" value="Top"/>
-      <property name="TakeDelay" value="5"/>
     </block>
     
     <block name="Shouden_NewB">
-      <property name="Class" value="PoweredLight"/>
-      <property name="Extends" value="porchLight01"/>
-      <property name="CreativeMode" value="Player"/>
-      <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-      <!--<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
-      <property name="CustomIcon" value="ceilingLight01"/>
-      <property name="RuntimeSwitch" value="true"/>
-      <property name="Material" value="Mglass"/>
-      <property name="StabilitySupport" value="false"/> 
+      <property name="Extends" value="ceilingLight01_player"/>
       <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
-      <property name="HandleFace" value="Top"/>
-      <property name="TakeDelay" value="5"/>
-      
       <property name="CanPickup" value="true" />
       <property name="CreativeMode" value="Player"/>
     </block>
     
     <block name="Shouden_NewC">
-      <property name="Class" value="Switch"/>
-      <property name="Extends" value="porchLight01"/>
-      <property name="CreativeMode" value="Player"/>
-      <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
-      <!--<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
-      <property name="CustomIcon" value="ceilingLight01"/>
-      <property name="RuntimeSwitch" value="false"/>
-      <property name="Material" value="Mglass"/>
-      <property name="StabilitySupport" value="false"/> 
-      <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
-      <property name="HandleFace" value="Top"/>
-      <property name="TakeDelay" value="5"/>
-      
-      <property name="CanPickup" value="true" />
+      <property name="Extends" value="industrialLight02Red"/>
+      <property name="Class" value="PoweredLight"/>
+      <property name="RuntimeSwitch" value="true"/>
       <property name="CreativeMode" value="Player"/>
     </block>
   </append>
