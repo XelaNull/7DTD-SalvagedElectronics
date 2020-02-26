@@ -1,9 +1,81 @@
 <configs>
+  
+  
+  <append xpath="/blocks">
+
+    <block name="Shouden_Orig">
+    	<property name="Class" value="PoweredLight"/>
+    	<property name="Extends" value="porchLight01"/>
+    	<property name="CreativeMode" value="Player"/>
+    	<property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    	<!--<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
+    	<property name="CustomIcon" value="ceilingLight01"/>
+    	<property name="RuntimeSwitch" value="true"/>
+    	<property name="Material" value="Mglass"/>
+    	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+    	<property name="Model" value="Entities/Lighting/player_ceilingLight01Prefab"/>
+      <property name="HandleFace" value="Top"/>
+    	<property name="TakeDelay" value="5"/>
+    </block>
+    
+    <block name="Shouden_NewA">
+      <property name="Class" value="PoweredLight"/>
+      <property name="Extends" value="porchLight01"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+    <!--  <property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
+      <property name="CustomIcon" value="ceilingLight01"/>
+      <property name="RuntimeSwitch" value="true"/>
+      <property name="Material" value="Mglass"/>
+      <property name="StabilitySupport" value="false"/> 
+      <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
+      <property name="HandleFace" value="Top"/>
+      <property name="TakeDelay" value="5"/>
+    </block>
+    
+    <block name="Shouden_NewB">
+      <property name="Class" value="PoweredLight"/>
+      <property name="Extends" value="porchLight01"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+      <!--<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
+      <property name="CustomIcon" value="ceilingLight01"/>
+      <property name="RuntimeSwitch" value="true"/>
+      <property name="Material" value="Mglass"/>
+      <property name="StabilitySupport" value="false"/> 
+      <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
+      <property name="HandleFace" value="Top"/>
+      <property name="TakeDelay" value="5"/>
+      
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
+    </block>
+    
+    <block name="Shouden_NewC">
+      <property name="Class" value="Switch"/>
+      <property name="Extends" value="porchLight01"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="lightPlayerGroupDesc"/>
+      <!--<property name="UnlockedBy" value="perkAdvancedEngineering,generatorbankSchematic"/>-->
+      <property name="CustomIcon" value="ceilingLight01"/>
+      <property name="RuntimeSwitch" value="false"/>
+      <property name="Material" value="Mglass"/>
+      <property name="StabilitySupport" value="false"/> 
+      <property name="Model" value="Entities/Lighting/porchLight01Prefab"/>
+      <property name="HandleFace" value="Top"/>
+      <property name="TakeDelay" value="5"/>
+      
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
+    </block>
+  </append>
+  
+  
   <!--
   <append xpath="/blocks/block[@name='porchLight01']">
     <drop event="Harvest" name="porchLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
--->
+
   <append xpath="/blocks">
     <block name="Shouden">
       <property name="DescriptionKey" value="lightPOIGroupDesc"/>
@@ -31,7 +103,7 @@
       <property name="CreativeMode" value="Player"/>
     </block>
   </append>
-  
+  -->
   <!--
   <append xpath="/blocks/block[@name='porchLight04']">
     <drop event="Harvest" name="porchLight04_player" count="1" prob=".6" tag="salvageHarvest"/>
