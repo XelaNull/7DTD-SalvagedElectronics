@@ -1,5 +1,4 @@
 <configs>
-  <append xpath="/blocks">
 
   <append xpath="/blocks/block[@name='porchLight01']">
     <drop event="Harvest" name="porchLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
