@@ -76,23 +76,6 @@
   <append xpath="/blocks/block[@name='ceilingLight01']">
     <drop event="Harvest" name="ceilingLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
-  <append xpath="/blocks">
-    <block name="ceilingLight01_player">
-      <property name="Extends" value="porchLight01"/>
-    	<property name="Material" value="Mglass"/>
-    	<property name="StabilitySupport" value="false"/> 
-    	<property name="Model" value="Entities/Lighting/ceilingLight01Prefab"/>
-      <property name="HandleFace" value="Top"/>
-    	<drop event="Destroy" count="0"/>
-
-      <property name="CustomIcon" value="ceilingLight01"/>
-      <property name="CustomIconTint" value="73b504"/>          
-      <property name="RuntimeSwitch" value="true"/>
-      <property name="Class" value="PoweredLight"/>
-      <property name="CanPickup" value="true" />
-      <property name="CreativeMode" value="Player"/>
-    </block>
-  </append>
   
   
   <append xpath="/blocks/block[@name='ceilingLight02']">
@@ -321,20 +304,7 @@
   <append xpath="/blocks/block[@name='signExitLight']">
     <drop event="Harvest" name="signExitLight_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
-  <append xpath="/blocks">
-    <block name="signExitLight_player">
-      <property name="Extends" value="porchLight01"/>
-    	<property name="Model" value="Entities/Lighting/exit_signPrefab"/>
-      <property name="HandleFace" value="South"/>
-      
-      <property name="CustomIcon" value="ceilingLight01"/>
-      <property name="CustomIconTint" value="73b504"/>   
-      <property name="RuntimeSwitch" value="true"/>
-      <property name="Class" value="PoweredLight"/>
-      <property name="CanPickup" value="true" />
-      <property name="CreativeMode" value="Player"/>
-    </block>
-  </append>
+
   
   <append xpath="/blocks/block[@name='lanternDecorLight']">
     <drop event="Harvest" name="lanternDecorLight_player" count="1" prob=".6" tag="salvageHarvest"/>
