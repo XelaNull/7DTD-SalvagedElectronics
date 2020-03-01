@@ -279,6 +279,9 @@
   <append xpath="/blocks/block[@name='industrialLight01']">
     <drop event="Harvest" name="industrialLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
+  <append xpath="/blocks/block[@name='industrialLight01_player']">
+    <drop event="Harvest" name="industrialLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
+  </append> 
   
   
   <append xpath="/blocks/block[@name='sconce1Light']">
@@ -316,6 +319,23 @@
     </block>
   </append>
   
+  <append xpath="/blocks/block[@name='signExitLight']">
+    <drop event="Harvest" name="signExitLight_player" count="1" prob=".6" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks">
+    <block name="signExitLight_player">
+      <property name="Extends" value="porchLight01"/>
+    	<property name="Model" value="Entities/Lighting/exit_signPrefab"/>
+      <property name="HandleFace" value="South"/>
+      
+      <property name="CustomIcon" value="ceilingLight01"/>
+      <property name="CustomIconTint" value="73b504"/>   
+      <property name="RuntimeSwitch" value="true"/>
+      <property name="Class" value="PoweredLight"/>
+      <property name="CanPickup" value="true" />
+      <property name="CreativeMode" value="Player"/>
+    </block>
+  </append>
   
   <append xpath="/blocks/block[@name='lanternDecorLight']">
     <drop event="Harvest" name="lanternDecorLight_player" count="1" prob=".6" tag="salvageHarvest"/>
@@ -357,7 +377,9 @@
   <append xpath="/blocks/block[@name='industrialLight02']">
     <drop event="Harvest" name="industrialLight02_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
-  
+  <append xpath="/blocks/block[@name='industrialLight02_player']">
+    <drop event="Harvest" name="industrialLight02_player" count="1" prob=".6" tag="salvageHarvest"/>
+  </append>  
   
   <append xpath="/blocks/block[@name='industrialLight02Red']">
     <drop event="Harvest" name="industrialLight02Red_player" count="1" prob=".6" tag="salvageHarvest"/>
@@ -661,18 +683,24 @@
   </append>
   
   
+  <append xpath="/blocks/block[@name='candleTableLight']">
+    <drop event="Harvest" name="candleTableLightPlayer" count="1" prob=".6" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='candleWallLight']">
+    <drop event="Harvest" name="candleWallLightPlayer" count="1" prob=".6" tag="salvageHarvest"/>
+  </append>
+  <append xpath="/blocks/block[@name='wallTorchLight']">
+    <drop event="Harvest" name="wallTorchLightPlayer" count="1" prob=".6" tag="salvageHarvest"/>
+  </append>
+  
   <append xpath="/blocks/block[@name='ceilingLight01_player']">
     <drop event="Harvest" name="ceilingLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
   <append xpath="/blocks/block[@name='lanternLight_player']">
     <drop event="Harvest" name="lanternLight_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
-  <append xpath="/blocks/block[@name='industrialLight01_player']">
-    <drop event="Harvest" name="industrialLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
-  </append>  
-  <append xpath="/blocks/block[@name='industrialLight02_player']">
-    <drop event="Harvest" name="industrialLight02_player" count="1" prob=".6" tag="salvageHarvest"/>
-  </append>  
+ 
+
   <append xpath="/blocks/block[@name='ceilingLight07_player']">
     <drop event="Harvest" name="ceilingLight07_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
