@@ -2,9 +2,13 @@
 <!--
   <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="batterybank,shotgunTurret,meleeToolRepairT3Nailgun,garageDoorMetal_v1Powered,garageDoorIndustrial_Powered,metalReinforcedWoodDrawBridgePowered,vaultHatch_v3_Powered,vaultDoor03_Powered"/>
 -->
+<remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']" />
 
-  <!--<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,solarCell,solarbank</append>-->
+<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect">
+  <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="batterybank,shotgunTurret,meleeToolRepairT3Nailgun,garageDoorMetal_v1Powered,garageDoorIndustrial_Powered,metalReinforcedWoodDrawBridgePowered,vaultHatch_v3_Powered,vaultDoor03_Powered,solarCell,solarbank"/>
+</append>
 
+<!--
   <remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']" />
   <append xpath="/progression/perks/">
     <perk name="perkAdvancedEngineering" parent="skillIntellectCraftsmanship" name_key="perkAdvancedEngineeringName" desc_key="perkAdvancedEngineeringDesc" icon="ui_game_symbol_workbench">
@@ -17,7 +21,6 @@
   		<effect_group>
   			<passive_effect name="CraftingTier" operation="base_set" level="0,5" value="0,5" tags="perkAdvancedEngineering"/><!-- fake crafting perk that is used to scale resources -->
 
-  				<!-- Engineer use x% less material on all recipes in the forge... by adding it to non engineers T3 10% .9, T4 15% .85, T5 20% .8 -->
   			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="forge"/>
   			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.2" tags="perkAdvancedEngineering"/>
   			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="workbench,chemistryStation,cementMixer"/>
@@ -35,5 +38,5 @@
   		</effect_group>
   	</perk>
   </append>
-
+-->
 </configs>
