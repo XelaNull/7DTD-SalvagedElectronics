@@ -9,7 +9,7 @@
     <recipe name="solarCell" count="1" craft_area="workbench" craft_time="900" craft_exp_gain="5000" tags="perkYeahScience">
 	    <ingredient name="resourceForgedSteel" count="25"/>
 	    <!--<ingredient name="resourceSilverNugget" count="2"/>-->
-	    <ingredient name="unit_glass" count="6"/>
+	    <ingredient name="glassBusinessBlock" count="3"/>
 	    <ingredient name="resourceElectricParts" count="4"/>
 	    <ingredient name="resourceElectronicParts" count="10"/>
 			<!--
