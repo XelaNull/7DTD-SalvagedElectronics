@@ -6,7 +6,7 @@
 	<remove xpath="/recipes/recipe[@name='solarCell']" />
 	<!-- Add in a new recipe for solarCell -->
 	<append xpath="/recipes">
-    <recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting,perkYeahScience">
+    <recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting,perkAdvancedEngineering">
 	    <ingredient name="resourceForgedSteel" count="25"/>
 	    <ingredient name="glassBlockVariantHelper" count="3"/>
 	    <ingredient name="resourceElectricParts" count="4"/>
@@ -19,7 +19,7 @@
 		<!-- The line below was added for compatibility in case another modlet creates this recipe -->
 		<remove xpath="/recipes/recipe[@name='solarbank']" />
 		<!-- Add in a new recipe for solarbank -->
-    <recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting">
+    <recipe name="solarbank" count="1" craft_area="workbench" tags="workbenchCrafting,perkAdvancedEngineering">
 	    <ingredient name="resourceScrapPolymers" count="100"/>
 	    <ingredient name="resourceElectricParts" count="10"/>
 	    <ingredient name="resourceRepairKit" count="10"/>

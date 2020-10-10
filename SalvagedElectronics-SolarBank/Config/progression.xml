@@ -1,5 +1,5 @@
 <configs>
   <!-- Place recipes behind the YeahScience perk -->
-  <append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,solarCell,solarbank"</append>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags">,solarCell,solarbank"</append>
 
 </configs>
