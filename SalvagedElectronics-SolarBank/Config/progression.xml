@@ -1,8 +1,9 @@
 <configs>
   <!-- Place recipes behind the YeahScience perk -->
+<!--
+  <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="batterybank,shotgunTurret,meleeToolRepairT3Nailgun,garageDoorMetal_v1Powered,garageDoorIndustrial_Powered,metalReinforcedWoodDrawBridgePowered,vaultHatch_v3_Powered,vaultDoor03_Powered"/>
+-->
 
-  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
-    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="solarCell,solarbank"/>
-  </append>
+  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,solarCell,solarbank"</append>
 
 </configs>
