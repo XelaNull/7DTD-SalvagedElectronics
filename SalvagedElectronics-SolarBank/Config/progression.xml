@@ -1,9 +1,39 @@
 <configs>
-  <!-- Place recipes behind the YeahScience perk -->
 <!--
   <passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="batterybank,shotgunTurret,meleeToolRepairT3Nailgun,garageDoorMetal_v1Powered,garageDoorIndustrial_Powered,metalReinforcedWoodDrawBridgePowered,vaultHatch_v3_Powered,vaultDoor03_Powered"/>
 -->
 
-  <append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,solarCell,solarbank"</append>
+  <!--<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,solarCell,solarbank</append>-->
+
+  <remove xpath="/progression/perks/perk[@name='perkAdvancedEngineering']" />
+  <append xpath="/progression/perks/">
+    <perk name="perkAdvancedEngineering" parent="skillIntellectCraftsmanship" name_key="perkAdvancedEngineeringName" desc_key="perkAdvancedEngineeringDesc" icon="ui_game_symbol_workbench">
+  		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="1" desc_key="reqIntellectLevel01"/></level_requirements>
+  		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
+  		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
+  		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
+  		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
+
+  		<effect_group>
+  			<passive_effect name="CraftingTier" operation="base_set" level="0,5" value="0,5" tags="perkAdvancedEngineering"/><!-- fake crafting perk that is used to scale resources -->
+
+  				<!-- Engineer use x% less material on all recipes in the forge... by adding it to non engineers T3 10% .9, T4 15% .85, T5 20% .8 -->
+  			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="forge"/>
+  			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.2" tags="perkAdvancedEngineering"/>
+  			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,5" value="1" tags="workbench,chemistryStation,cementMixer"/>
+  			<passive_effect name="CraftingTime" operation="perc_add" level="2,5" value="-0.2" tags="workbenchCrafting,cementMixerCrafting"/>
+  			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="3,5" value="1" tags="resourceMilitaryFiber,generatorbank,electricwirerelay,switch,ceilingLight01_player,industrialLight01_player,industrialLight02_player,armorMiningHelmet,spotlightPlayer,speaker,pressureplate,pressureplateLong,dartTrap,electrictimerrelay,motionsensor,tripwirepost,electricfencepost,bladeTrap"/>
+  			<passive_effect name="ElectricalTrapXP" operation="base_set" level="3,4,5" value="0.2,0.35,0.5"/>
+  			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="4,5" value="1" tags="batterybank,shotgunTurret,meleeToolRepairT3Nailgun,garageDoorMetal_v1Powered,garageDoorIndustrial_Powered,metalReinforcedWoodDrawBridgePowered,vaultHatch_v3_Powered,vaultDoor03_Powered,solarCell,solarbank"/>
+  			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="5" value="1" tags="toolForgeCrucible,autoTurret"/>
+
+  			<effect_description level="1" desc_key="perkAdvancedEngineeringRank1Desc" long_desc_key="perkAdvancedEngineeringRank1LongDesc"/>
+  			<effect_description level="2" desc_key="perkAdvancedEngineeringRank2Desc" long_desc_key="perkAdvancedEngineeringRank2LongDesc"/>
+  			<effect_description level="3" desc_key="perkAdvancedEngineeringRank3Desc" long_desc_key="perkAdvancedEngineeringRank3LongDesc"/>
+  			<effect_description level="4" desc_key="perkAdvancedEngineeringRank4Desc" long_desc_key="perkAdvancedEngineeringRank4LongDesc"/>
+  			<effect_description level="5" desc_key="perkAdvancedEngineeringRank5Desc" long_desc_key="perkAdvancedEngineeringRank5LongDesc"/>
+  		</effect_group>
+  	</perk>
+  </append>
 
 </configs>

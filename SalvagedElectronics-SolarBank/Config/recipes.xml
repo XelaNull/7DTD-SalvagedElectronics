@@ -6,7 +6,7 @@
 	<remove xpath="/recipes/recipe[@name='solarCell']" />
 	<!-- Add in a new recipe for solarCell -->
 	<append xpath="/recipes">
-    <recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting,perkAdvancedEngineering">
+    <recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting">
 	    <ingredient name="resourceForgedSteel" count="25"/>
 	    <ingredient name="glassBlockVariantHelper" count="3"/>
 	    <ingredient name="resourceElectricParts" count="4"/>
