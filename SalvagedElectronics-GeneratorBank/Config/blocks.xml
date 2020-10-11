@@ -1,4 +1,7 @@
 <configs>
+  
+  <set xpath="/blocks/block[@name='generatorbank']/property[@name='MaxFuel']">2000</set>
+
   <!--
   Remove the items that currently wrench off a generator, in favor of new items that make sense.
   -->
