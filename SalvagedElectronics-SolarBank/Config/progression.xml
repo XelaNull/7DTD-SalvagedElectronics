@@ -19,7 +19,7 @@
   		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attIntellect" operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>
 
   		<effect_group>
-  			<passive_effect name="CraftingTier" operation="base_set" level="0,5" value="0,5" tags="perkAdvancedEngineering"/><!-- fake crafting perk that is used to scale resources -->
+  			<passive_effect name="CraftingTier" operation="base_set" level="0,5" value="0,5" tags="perkAdvancedEngineering"/>
 
   			<passive_effect name="RecipeTagUnlocked" operation="base_set" level="1,5" value="1" tags="forge"/>
   			<passive_effect name="CraftingTime" operation="perc_add" level="1,5" value="-0.2" tags="perkAdvancedEngineering"/>
