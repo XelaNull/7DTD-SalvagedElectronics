@@ -3,9 +3,9 @@
     Taken from: https://7daystodie.com/forums/showthread.php?67181-Recipe-for-Solar-Cells
   -->
 	<!-- The line below was added for compatibility in case another modlet creates this recipe -->
-	<remove xpath="/recipes/recipe[@name='solarCell']" />
+	<!-- <remove xpath="/recipes/recipe[@name='solarCell']" /> -->
 	<!-- Add in a new recipe for solarCell -->
-	<remove xpath="/recipes/recipe[@name='solarbank']" />
+	<!-- <remove xpath="/recipes/recipe[@name='solarbank']" /> -->
 
 	<append xpath="/recipes">
     <recipe name="solarCell" count="1" craft_area="workbench" tags="workbenchCrafting,learnable,perkAdvancedEngineering">
