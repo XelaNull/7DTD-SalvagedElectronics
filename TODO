@@ -1,0 +1,1 @@
+2020-09-27T17:51:18 37.792 WRN XML patch for "progression.xml" from mod "Salvaged Electronics - Solar Bank" did not apply: <append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked']/@tags"
