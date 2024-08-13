@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-		<Name value="Salvaged Electronics - Generator Bank" />
+		<Name value="SalvagedElectronics_GeneratorBank" />
 		<DisplayName value="Salvaged Electronics - Generator Bank" />
 		<Description value="Adds ability to wrench generators from POIs and potentially obtain user-placable generators." />
 		<Author value="Shouden Kalferas"/>
-		<Version value="1.0_1.0" />
+		<Version value="1.0.1.1" />
 		<Website value="https://github.com/XelaNull/7DTD-SalvagedElectronics.git" />
 </xml>

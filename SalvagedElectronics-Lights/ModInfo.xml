@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-		<Name value="Salvaged Electronics - Lights" />
+		<Name value="SalvagedElectronics_Lights" />
 		<DisplayName value="Salvaged Electronics - Lights" />
 		<Description value="Adds ability to wrench lights from POIs and potentially obtain user-placable lights." />
 		<Author value="Shouden Kalferas"/>
-		<Version value="1.0_1.0a" />
+		<Version value="1.0.1.1" />
 		<Website value="https://github.com/XelaNull/7DTD-SalvagedElectronics.git" />
 </xml>
