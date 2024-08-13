@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
 		<Name value="Salvaged Electronics - Solar Bank" />
+		<DisplayName value="Salvaged Electronics - Solar Bank" />
 		<Description value="Adds ability to wrench a solar bank off a roof and potentially obtain a working bank and solar cells." />
 		<Author value="Shouden Kalferas"/>
-		<Version value="A19.3_1.0" />
+		<Version value="1.0_1.0a" />
 		<Website value="https://github.com/XelaNull/7DTD-SalvagedElectronics.git" />
-	</ModInfo>
 </xml>

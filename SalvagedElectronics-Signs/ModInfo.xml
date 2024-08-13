@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
 		<Name value="Salvaged Electronics - Signs" />
+		<DisplayName value="Salvaged Electronics - Signs" />
 		<Description value="Adds ability to wrench signs from POIs and potentially obtain user-placable signs." />
 		<Author value="Shouden Kalferas"/>
-		<Version value="A19.3_1.0" />
+		<Version value="1.0_1.0a" />
 		<Website value="https://github.com/XelaNull/7DTD-SalvagedElectronics.git" />
-	</ModInfo>
 </xml>
