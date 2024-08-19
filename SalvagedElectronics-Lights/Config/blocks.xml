@@ -658,10 +658,11 @@
   <append xpath="/blocks/block[@name='candleWallLight']">
     <drop event="Harvest" name="candleWallLightPlayer" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
+  <!--
   <append xpath="/blocks/block[@name='wallTorchLight']">
     <drop event="Harvest" name="wallTorchLightPlayer" count="1" prob=".6" tag="salvageHarvest"/>
   </append>
-  
+  -->
   <append xpath="/blocks/block[@name='ceilingLight01_player']">
     <drop event="Harvest" name="ceilingLight01_player" count="1" prob=".6" tag="salvageHarvest"/>
   </append>  
